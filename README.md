@@ -64,7 +64,7 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FloGPT is an AI Chat & Voice Agents platform with a built‑in AI CRM. It lets you embed an AI chat widget on any website, run AI phone agents 24/7, and unify chat, voice, email, SMS, WhatsApp, Instagram and Facebook into one inbox, all grounded in your own knowledge base. The platform offers omnichannel support, workflow automation, and a customizable AI knowledge base for businesses seeking intelligent customer engagement.
+FloGPT is an AI Chat & Voice Agents platform with a built‑in AI CRM. It lets you embed an AI chat widget on any website, run AI phone agents 24/7, and unify chat, voice, email, SMS, WhatsApp, Instagram and Facebook into one inbox, all grounded in your own knowledge base. The platform offers omnichannel support, workflow automation, and a customizable AI knowledge base for businesses seeking intelligent customer engagement. It also provides analytics, customizable workflows, and seamless integration with popular CRMs and e‑commerce platforms, empowering businesses to deliver personalized, AI‑driven customer experiences at scale.
 
 **Areas:** AI · Chatbot · VoiceAgents · CRM · Omnichannel
 
@@ -72,15 +72,108 @@ FloGPT is an AI Chat & Voice Agents platform with a built‑in AI CRM. It lets y
 
 Everything profiled for FloGPT is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flogpt-com/](https://apis.io/providers/flogpt-com/)** — or go straight to one of the APIs or properties below.
 
+### APIs (2)
+
+- [FloGPT GraphQL API](https://apis.io/apis/flogpt-com/flogpt-graphql-api/) — GraphQL API for FloGPT platform providing access to chat, voice agents and CRM features.
+- [FloGPT API](https://apis.io/apis/flogpt-com/flogpt-com-api/) — FloGPT API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-11-08); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Flogpt Com Webhooks](https://apis.io/asyncapis/flogpt-com/flogpt-com-webhooks/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PostKnowledgeCrawlRequest](https://apis.io/schemas/flogpt-com/flogpt-com-post-knowledge-crawl-request/)
+- [PostTriggersOutboundRequest](https://apis.io/schemas/flogpt-com/flogpt-com-post-triggers-outbound-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Flogpt Com Context](https://apis.io/jsonld/flogpt-com/flogpt-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FloGPT API Rules](https://apis.io/rules/flogpt-com/flogpt-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flogpt Com Domain Security](https://apis.io/security/flogpt-com/flogpt-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Flogpt Com Plans Pricing](https://apis.io/plans/flogpt-com/flogpt-com-plans-pricing/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://flogpt.com/)
+- [Documentation](https://flogpt.com/docs)
+- [Getting started](https://flogpt.com/docs/get-started/setup)
+- [Pricing](https://flogpt.com/pricing)
+- [Support](https://flogpt.com/support/mews-integration)
+- [Blog](https://flogpt.com/blog/how-to-set-up-ai-voice-agent-inbound-calls)
+- [Terms of service](https://flogpt.com/terms)
+- [Privacy policy](https://flogpt.com/privacy)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/flogpt-com/](https://apis.io/providers/flogpt-com/).
+**Kin Score 49.7** — developing · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 52.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 25.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flogpt-com/](https://apis.io/providers/flogpt-com/).
 
 ## How this profile is made
 
